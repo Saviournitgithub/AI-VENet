@@ -5,9 +5,7 @@
 The AI-VENet framework proposed for breast cancer classification using BUS images. The proposed architecture consist of four stages: i) Pre-Processing, ii) Feature Extraction, iii) Oversampling and iv) Classification. In the preprocessing stage data augemnetation and denoising is performed where BM3D filter is used for dnoising. In the feature extraction stage attention based deep features and handcrafted features are extracted whre newly devloped Hybrid Attention Module (HAM) is utilized for attention based deep feature extraction. Whereas HOG is used for handcrfated features. In next step Borderline SMOTE is used to create synthic data samples.Finally weighted voting technique is used for classification whrere, SVM, XT and LGMB are used as base classifier and the weights of the base classifier is determined using Hill Climbing optimation algorithm. The archetecture of the AI-VENet is given below.
 
 
-![Weighted_Voting_final(mask) (4)](https://github.com/Saviournitgithub/AI-VENet/assets/164878062/138cfa96-6f35-4954-aab3-91ca58d94712)
-
-
+![Weighted_Voting_final(mask) (5)](https://github.com/Saviournitgithub/AI-VENet/assets/164878062/bb7d9b72-8889-4258-9a8b-c085cca5f918)
 
 
 # Steps:
